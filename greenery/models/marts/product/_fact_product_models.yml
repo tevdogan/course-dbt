@@ -1,0 +1,12 @@
+version: 2
+
+models:
+  - name: fact_products
+    description: 'fact with daily events per product. i.e count of views, added to chart and orders.'
+    columns:
+      - name: product_id 
+      - name: total_page_views
+        tests:
+          - positive_values
+      - name: total_add_to_carts
+      - name: total_orders
