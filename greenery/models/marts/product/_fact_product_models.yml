@@ -10,3 +10,11 @@ models:
           - positive_values
       - name: total_add_to_carts
       - name: total_orders
+  - name: fact_sessions
+    description: 'fact with all events per session aggregated to session_id'
+    columns:
+      - name: session_id 
+      - name: page_view
+      - name: add_to_cart
+      - name: checkout
+      - name: package_shipped

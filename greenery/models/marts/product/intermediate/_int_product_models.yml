@@ -1,10 +1,10 @@
 version: 2
 
 models:
-  - name: int_page_views_products
+  - name: int_page_view_products
     description: "intermediate table with daily aggregated event types per product"
 
-  - name: int_user_evetns
+  - name: int_user_events
     description: "intermediate table with daily aggregated event types per user. User events are checkout and shipment of package."
   
   - name: int_daily_orders_product
